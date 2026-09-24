@@ -5,7 +5,7 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "thermal-print": "github:joernalraun/thermo-printer"
+        "thermal-print": "github:https://github.com/joernalraun/thermo-printer"
     },
     "files": [
         "README.md",

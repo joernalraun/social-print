@@ -1,0 +1,30 @@
+{
+    "port": 8080,
+    "handle": "calliopemini",
+    "maxChars": 280,
+    "cacheSeconds": 60,
+    "asciiFold": true,
+
+    "platforms": {
+        "mastodon": {
+            "enabled": true,
+            "instance": "mastodon.social",
+            "handle": "calliopemini"
+        },
+        "facebook": {
+            "enabled": false,
+            "pageId": "PUT THE NUMERIC PAGE ID HERE",
+            "accessToken": "PUT A LONG LIVED PAGE ACCESS TOKEN HERE"
+        },
+        "instagram": {
+            "enabled": false,
+            "userId": "PUT THE INSTAGRAM BUSINESS ACCOUNT ID HERE",
+            "accessToken": "PUT A LONG LIVED PAGE ACCESS TOKEN HERE"
+        },
+        "threads": {
+            "enabled": false,
+            "userId": "PUT THE THREADS USER ID HERE",
+            "accessToken": "PUT A THREADS ACCESS TOKEN HERE"
+        }
+    }
+}

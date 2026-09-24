@@ -1,0 +1,38 @@
+{
+    "espWifi": "Ein ESP8266-WLAN-Modul im AT-Befehlsmodus ansprechen.",
+    "espWifi.useWifiModule": "Legt fest, wo das WLAN-Modul angeschlossen ist und wie schnell es spricht. Die meisten ESP8266-Module sind ab Werk auf 115200 Baud eingestellt.",
+    "espWifi.useWifiModule|param|tx": "der Board-Pin am RX des Moduls, z.B.: SerialPin.P1",
+    "espWifi.useWifiModule|param|rx": "der Board-Pin am TX des Moduls, z.B.: SerialPin.P2",
+    "espWifi.useWifiModule|param|baud": "die Baudrate des Moduls, z.B.: BaudRate.BaudRate115200",
+
+    "espWifi.usePrinterPort": "Legt fest, wie der Thermodrucker angeschlossen ist, damit die serielle Schnittstelle nach jeder Abfrage an ihn zurückgegeben werden kann. Dieselben Werte wie im Verbinde-Block des Druckers eintragen.",
+    "espWifi.usePrinterPort|param|tx": "der Board-Pin am RX des Druckers, z.B.: SerialPin.P8",
+    "espWifi.usePrinterPort|param|baud": "die Baudrate des Druckers, z.B.: BaudRate.BaudRate9600",
+
+    "espWifi.connectToNetwork": "Meldet sich an einem WLAN an. Das dauert einige Sekunden und liefert wahr, wenn es geklappt hat.",
+    "espWifi.connectToNetwork|param|ssid": "der Name des Netzes",
+    "espWifi.connectToNetwork|param|password": "das Passwort des Netzes",
+
+    "espWifi.isConnected": "Wahr, wenn die letzte Anmeldung am WLAN geklappt hat.",
+    "espWifi.lastModuleReply": "Der Text, den das Modul zuletzt zurückgeschickt hat. Hilfreich zur Fehlersuche.",
+
+    "espWifi.httpGet": "Holt eine Seite über einfaches HTTP und gibt den Inhalt zurück. Nur HTTP, kein HTTPS - diese Module können das nicht zuverlässig, genau dafür gibt es den Vermittlungsdienst. Die Antworten müssen klein bleiben, das Board hat wenig Speicher.",
+    "espWifi.httpGet|param|host": "der Server, z.B.: \"192.168.1.10\"",
+    "espWifi.httpGet|param|port": "der Port, z.B.: 8080",
+    "espWifi.httpGet|param|path": "der Pfad samt Abfrage, z.B.: \"/latest?platform=mastodon\"",
+
+    "socialFeed": "Die @calliopemini-Konten auf neue Posts beobachten.",
+    "socialFeed.setRelay": "Wo der Vermittlungsdienst läuft. Er muss aus dem WLAN, in das sich das Modul einbucht, über einfaches HTTP erreichbar sein.",
+    "socialFeed.setRelay|param|host": "die Adresse des Dienstes, z.B.: \"192.168.1.10\"",
+    "socialFeed.setRelay|param|port": "der Port des Dienstes, z.B.: 8080",
+
+    "socialFeed.checkForNewPost": "Fragt nach, ob ein Post erschienen ist, den dieses Programm noch nicht kennt. Jeder Post wird nur einmal gemeldet. Dauert einige Sekunden.",
+    "socialFeed.checkForNewPost|param|which": "welches Konto angesehen wird",
+
+    "socialFeed.ignorePostsUpToNow": "Behandelt alles, was gerade da ist, als bereits gesehen, ohne es zu melden. Gehört in \"beim Start\", damit das Board nicht bei jedem Einschalten einen alten Post druckt.",
+    "socialFeed.ignorePostsUpToNow|param|which": "welches Konto nachgeholt wird",
+
+    "socialFeed.postText": "Der Text des gerade gefundenen Posts.",
+    "socialFeed.postPlatform": "Von welcher Plattform der gerade gefundene Post stammt.",
+    "socialFeed.postTime": "Wann der gerade gefundene Post veröffentlicht wurde."
+}

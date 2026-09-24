@@ -1,0 +1,27 @@
+{
+    "espWifi|block": "WLAN",
+    "espWifi.useWifiModule|block": "WLAN-Modul|TX Pin %tx|RX Pin %rx|Baudrate %baud",
+    "espWifi.usePrinterPort|block": "Drucker hängt an|TX Pin %tx|Baudrate %baud",
+    "espWifi.connectToNetwork|block": "verbinde mit WLAN|Netz %ssid|Passwort %password",
+    "espWifi.isConnected|block": "WLAN verbunden",
+    "espWifi.lastModuleReply|block": "letzte Antwort des WLAN-Moduls",
+    "espWifi.httpGet|block": "HTTP GET|Host %host|Port %port|Pfad %path",
+    "{id:group}Setup": "Einrichtung",
+    "{id:group}Connection": "Verbindung",
+    "{id:group}Request": "Abfrage",
+
+    "socialFeed|block": "Social Feed",
+    "socialFeed.setRelay|block": "Vermittlungsdienst auf|Host %host|Port %port",
+    "socialFeed.checkForNewPost|block": "neuer Post auf %which",
+    "socialFeed.ignorePostsUpToNow|block": "Posts bis jetzt ignorieren auf %which",
+    "socialFeed.postText|block": "Post-Text",
+    "socialFeed.postPlatform|block": "Post-Plattform",
+    "socialFeed.postTime|block": "Post-Zeitpunkt",
+    "{id:group}Posts": "Posts",
+
+    "SocialPlatform.Mastodon|block": "Mastodon",
+    "SocialPlatform.Facebook|block": "Facebook",
+    "SocialPlatform.Instagram|block": "Instagram",
+    "SocialPlatform.Threads|block": "Threads",
+    "SocialPlatform.Any|block": "allen Plattformen"
+}

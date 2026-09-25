@@ -1,11 +1,11 @@
 {
     "name": "social-print",
-    "version": "0.0.1",
+    "version": "0.0.6",
     "description": "Fetch the newest @calliopemini post from Mastodon, Facebook, Instagram or Threads through a relay service and print it",
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "thermal-print": "github:https://github.com/joernalraun/thermo-printer"
+        "thermal-print": "github:joernalraun/thermo-printer"
     },
     "files": [
         "README.md",
